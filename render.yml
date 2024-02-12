@@ -1,0 +1,5 @@
+services:
+  - name: auth
+    buildCommand: npm install --build-from-source
+    startCommand: npm run dev
+    nodeVersion: 16
